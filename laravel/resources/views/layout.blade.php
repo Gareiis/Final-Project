@@ -25,5 +25,17 @@
 	<main>
 		@yield('main_content')
 	</main>
+	<div class="foot">
+		@section('footer')
+			<footer>
+				<nav>
+					<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/sign-up.html">Sign Up</a>
+					<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/sign-in.html">Log In</a>
+					<a href="/logout">Log Out</a>
+					<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/profile.html">Profile</a>
+				</nav>
+			</footer>
+		@show
+	</div>
 </body>
 </html>
