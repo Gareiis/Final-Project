@@ -9,7 +9,7 @@
 		<div>This is your first stop on the journey to create your very own video game.</div>
 		</div>
 	<div class="create">
-		<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/game-create.html">Create your dream game!</a>
+		<a href="game-create">Create your dream game!</a>
 	</div>
 	<div class="lightbox1">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dolore nihil doloremque dicta blanditiis perferendis officiis consequuntur voluptate maxime fugiat rerum est numquam, porro repudiandae cupiditate mollitia culpa. Atque, ab!

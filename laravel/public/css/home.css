@@ -1,0 +1,378 @@
+a {
+	color:white;
+	text-decoration: none;
+}
+
+/**********************
+		Hero Section
+***********************/
+
+.hero {
+	min-height: 100px;
+	background-color: red;
+	overflow: hidden;
+	position: relative;
+}
+
+header {
+	height: 150px;
+	background-color: orange;
+	text-align: center;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 50px;
+}
+
+.hero nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+nav > a {
+	display: inline-block;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+
+/********************************
+	Main Section				
+*********************************/
+
+main {
+	background-color: blue;
+	min-height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+/*******************
+	index page     
+*******************/
+.game-links {
+	text-align: center;
+	background-color: gold;
+	margin-top: 50px;
+	display: inline-block;
+	margin-left: 600px;
+	
+}
+
+.game-links a {
+	font-size: 30px;
+/*	display: block;*/
+	/*margin-top: 20px;*/
+}
+
+.sub-header {
+	background-color: #123;
+	overflow: hidden;
+	min-height: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mission {
+	background-color: #555;
+	color: white;
+	font-size: 25px;
+	width: 400px;
+	margin-left: 35%;
+
+}
+	
+
+.create > a {
+	font-size: 20px;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.lightbox1 {
+	background-color: pink;
+	min-height: 150px;
+	width: 200px;
+	float: left;
+	margin-left: 50px;
+
+
+}.lightbox2 {
+	background-color: pink;
+	min-height: 150px;
+	width: 200px;
+	float: right;
+	margin-right: 50px;
+}
+
+.banner {
+	background-color: red;
+	min-height: 150px;
+	position: relative;
+}
+
+.create {
+	background-color: #ccc;
+	min-height: 50px;
+	width: 100px;
+	position: absolute;
+	left: 45%; 	
+}
+.foot {
+	position: relative;
+	background-color: #122;
+	min-height: 50px;
+}
+footer nav {
+	position: absolute;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	left: 35%;
+
+}
+footer > nav > a {
+	color: red;
+}
+
+/*******************
+	sign up page     
+*******************/
+
+.sign-up-head {
+	font-size: 40px;
+}
+
+.sign-up {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 30px;
+}
+
+.sign-up > input {
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/*******************
+	profile page     
+*******************/
+
+.profile-head {
+	color: orange;
+	font-size: 30px;
+}
+
+.profile {
+	background-color: black;
+	width: 500px;
+	min-height: 500px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.profile-pic {
+	background-color: orange;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.update-section {
+	background-color: grey;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.user-details {
+	background-color: gold;
+	float: right;
+	min-height: 100px;
+	width: 100px;
+}
+
+
+/*******************
+	log in page     
+*******************/
+
+.sign-in-head {
+	font-size: 40px
+}
+
+.sign-in {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 30px;
+}
+
+.sign-in > input {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+/*******************
+	Create a game page     
+*******************/
+
+.game-create-head {
+	font-size: 30px;
+	color: orange;
+}
+
+.game-create {
+	text-align: center;
+}
+
+.game-create > select {
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+/*******************
+	Game Details page     
+*******************/
+
+.game-details-head {
+	color: orange;
+	font-size: 30px;
+}
+
+
+.game-details {
+	text-align: center;
+	border: 5px solid black;
+	
+}
+
+.game-details > p {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.game-components {
+	text-align: center;
+	margin-top: 50px;
+}
+
+/*******************
+	Wizard page 1    
+*******************/
+
+.wizard1-sub-header {
+	background-color: #123;
+	overflow: hidden;
+	min-height: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.wizard-page1-head {
+	font-size: 40px;
+	color: orange;
+}
+
+.gallery {
+	background-color: #fff;
+	margin-left: 450px;
+	min-height: 600px;
+	width: 400px;
+}
+
+.gallery div {
+	border: 3px solid orange;
+}
+
+.singleplayer {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.multiplayer {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.splitscreen {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.head-to-head {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+/*******************
+	Wizard page 2    
+*******************/
+
+/*******************
+	Wizard page 3    
+*******************/
+
+.wiz3-head {
+	color: orange;
+	font-size: 30px;
+}
+
+/*******************
+	Wizard page 4    
+*******************/
+
+/*******************
+	Plot Page    
+*******************/
+
+.plot-head {
+	font-size: 30px;
+	color: orange;
+}
+
+.comment {
+	border: 3px solid orange;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.profile-picture {
+	background-color: red;
+	min-height: 50px;
+	width: 100px;
+	float: left;
+}
+
+
+/*******************
+	Item Page    
+*******************/
+
+.item-head {
+	font-size: 30px;
+	color: orange;
+}
+
+/*******************
+	Combat Page    
+*******************/
+
+.combat-head {
+	font-size: 30px;
+	color: orange;
+}
+
+/*******************
+	NPC Page    
+*******************/
+
+.npce-head {
+	font-size: 30px;
+	color: orange;
+}

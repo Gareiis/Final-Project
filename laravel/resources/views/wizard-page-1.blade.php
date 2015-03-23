@@ -19,7 +19,7 @@
 		<div>
 			Choosing Singleplayer means just that, your game can only be played by one person
 		</div>
-		<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/wizard-page-2.html"><img src="images/singleplayer.jpg" width="400" height="400" alt=""></a>
+		<a href="wizard2"><img src="images/singleplayer.jpg" width="400" height="400" alt=""></a>
 	</div>
 	<div class="multiplayer">
 		<h3>
@@ -28,7 +28,7 @@
 		<div>
 			Choosing Multiplayer means that multiple people can play your game, generally more than 2 people.
 		</div>
-		<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/wizard-page-2.html"><img src="images/multiplayer.png" width="400" height="400" alt=""></a>
+		<a href="wizard2"><img src="images/multiplayer.png" width="400" height="400" alt=""></a>
 	</div>	
 	<div class="splitscreen">
 		<h3>
@@ -37,7 +37,7 @@
 		<div>
 			Choosing Co-op means that your game is going to be played by you and a friend.
 		</div>
-		<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/wizard-page-2.html"><img src="images/splitscreen.jpg" width="400" height="400" alt=""></a>
+		<a href="wizard2"><img src="images/splitscreen.jpg" width="400" height="400" alt=""></a>
 	</div>	
 	<div class="head-to-head">
 		<h3>
@@ -46,7 +46,7 @@
 		<div>
 			Choosing Head-To-Head means that your game pits players against each other in a 1v1 style.
 		</div>
-		<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/wizard-page-2.html"><img src="images/headtohead.jpg" width="400" height="400" alt=""></a>
+		<a href="wizard2"><img src="images/headtohead.jpg" width="400" height="400" alt=""></a>
 	</div>
 </div>
 @endsection

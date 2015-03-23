@@ -11,7 +11,7 @@
 
 
 @section('main_content')
-	<form action="file:///home/keith/sites/localhost/final-project-test/final-project-test/wizard-page-1.html" class="game-create">
+	<form action="/wizard1">
 		Game Type: <select name="" id="">
 			<option value="RPG">Role Playing Game</option>
 			<option value="FPS">First Person Shooter </option>

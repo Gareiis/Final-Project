@@ -16,7 +16,7 @@
 
 
 @section('main_content')
-	<form action="file:///home/keith/sites/localhost/final-project-test/final-project-test/game-details.html" class="game-create">
+	<form action="/profile" class="game-create">
 		<textarea placeholder="Describe your setting" name="" id="" cols="100" rows="50"></textarea><br>
 		<button>Finish</button>
 	</form>

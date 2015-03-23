@@ -14,7 +14,7 @@
 
 
 @section('main_content')
-	<form action="file:///home/keith/sites/localhost/final-project-test/final-project-test/wizard-page-4.html" class="game-create">
+	<form action="wizard4" class="game-create">
 		<textarea placeholder="Describe your rules" name="" id="" cols="100" rows="50"></textarea><br>
 		<button>Next</button>
 	</form>
