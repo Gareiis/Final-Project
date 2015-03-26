@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="home.css">
-	{{-- {{ HTML::style('home.css') }} --}}
+	<link rel="stylesheet" href="{{ url('css/home.css') }}">
+	{{-- {{ HTML::style('css/home.css') }} --}}
 </head>
 <body>
 	<div class="hero">

@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('header')
+
 @endsection
 
 @section('sub-header')

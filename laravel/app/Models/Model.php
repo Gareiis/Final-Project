@@ -83,6 +83,7 @@ abstract class Model {
         $this->data = $data;
         // Insert and set the local model's ID
         $this->id = Sql::insert(static::$table, $data, $ignore);
+        $this->data[static::$key] = $this->id;
         // Return the newly created ID
         return $this->id;
     }

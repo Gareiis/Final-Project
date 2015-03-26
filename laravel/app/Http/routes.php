@@ -20,7 +20,9 @@ Route::get('home', 'HomeController@index');
 
 Route::get('game-create', 'WizardController@index');
 
-Route::get('wizard1', 'WizardController@wizard1');
+Route::post('game-create/add', 'WizardController@addGame');
+
+Route::get('wizard1/{game_id}', 'WizardController@wizard1');
 
 Route::get('wizard2', 'WizardController@wizard2');
 
