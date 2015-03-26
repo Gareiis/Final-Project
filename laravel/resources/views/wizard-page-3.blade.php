@@ -5,6 +5,7 @@
 
 @section('sub-header')
 <div class="wiz3-head">
+	<a href="/wizard2">Back</a>
 	<h3>Describe The Rules Of Your Game</h3>
 	<div>
 		Here you can describe any specific rules you have for your game.  This can be anything you would like.

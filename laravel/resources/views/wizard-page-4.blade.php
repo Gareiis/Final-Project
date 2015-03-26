@@ -5,6 +5,7 @@
 
 @section('sub-header')
 <div class="wiz3-head">
+	<a href="/wizard3">Back</a>
 	<h3>
 		What Is The Setting Of Your Game?
 	</h3>

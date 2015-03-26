@@ -6,6 +6,7 @@
 @section('sub-header')
 <div class="wizard-page1-head">
 	<h2>Choose Your Game Format</h2>
+	<a href="/game-create">Back</a>
 </div>
 @endsection
 
