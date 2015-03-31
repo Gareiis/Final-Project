@@ -1,7 +1,6 @@
 @extends('layout')
 
-@section('header')
-@endsection
+
 
 @section('sub-header')
 <div class="game-create-head">

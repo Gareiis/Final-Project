@@ -1,7 +1,5 @@
 @extends('layout')
 
-@section('header')
-@endsection
 
 @section('sub-header')
 <div class="wiz3-head">

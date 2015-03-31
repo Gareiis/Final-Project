@@ -1,7 +1,6 @@
 @extends('layout')
 
-@section('header')
-@endsection
+
 
 @section('sub-header')
 <div class="wizard-page1-head">

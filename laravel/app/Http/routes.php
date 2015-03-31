@@ -40,11 +40,11 @@ Route::post('wizard4/add', 'WizardController@addSetting');
 
 Route::get('profile', 'ProfileController@index');
 
-Route::get('game-details', 'WizardController@gameDetails');
+Route::get('game-details/{game_id}', 'WizardController@getGame');
 
-Route::get('plot', 'WizardController@Plot');
+Route::get('plot', 'CommentController@getComments');
 
-Route::post('plot/addcommment', 'WizardController@addComment');
+Route::post('plot/addcomment', 'CommentController@addComment');
 
 Route::get('combat', 'WizardController@Plot');
 

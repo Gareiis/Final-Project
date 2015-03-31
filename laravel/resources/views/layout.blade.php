@@ -8,17 +8,17 @@
 </head>
 <body>
 	<div class="hero">
-		<header>
-			@section('header')
-				<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/index.html" class="logo">Fantasy Gaming</a>
-				<nav>
-					<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/sign-up.html">Sign Up</a>
-					<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/sign-in.html">Log In</a>
-					<a href="/logout">Log Out</a>
-					<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/profile.html">Profile</a>
-				</nav>
-			@show
-		</header>
+		@section('header')
+			<header>
+					<a href="/" class="logo">Fantasy Gaming</a>
+					<nav>
+						<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/sign-up.html">Sign Up</a>
+						<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/sign-in.html">Log In</a>
+						<a href="/logout">Log Out</a>
+						<a href="profile">Profile</a>
+					</nav>
+			</header>
+		@show
 	</div>
 	<div class="sub-header">
 		@yield('sub-header')
@@ -33,7 +33,7 @@
 					<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/sign-up.html">Sign Up</a>
 					<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/sign-in.html">Log In</a>
 					<a href="/logout">Log Out</a>
-					<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/profile.html">Profile</a>
+					<a href="profile">Profile</a>
 				</nav>
 			</footer>
 		@show

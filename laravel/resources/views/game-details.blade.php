@@ -1,7 +1,5 @@
 @extends('layout')
 
-@section('header')
-@endsection
 
 @section('sub-header')
 <div class="game-details-head">
@@ -15,12 +13,48 @@
 
 @section('main_content')
 	<div class="game-details">
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, praesentium assumenda nesciunt deleniti, eveniet voluptates sunt quisquam nisi ducimus quam quasi cumque, obcaecati hic molestias. Ex adipisci, officia fugit eligendi.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ut doloremque maxime tempora eveniet error quis quibusdam illum velit, provident numquam molestias qui possimus in, quae officiis, ipsam commodi autem.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi vitae debitis quidem ipsum consequatur repellat! Ad quo architecto, laboriosam voluptatem provident deserunt alias harum nihil laudantium voluptatibus eius ut optio.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem iusto atque deleniti sunt nihil repudiandae ea, officia voluptatibus eligendi neque quod deserunt odit doloribus doloremque rem error, enim tenetur. At?
-		</p>
+		@if (count($game->genre_id) == 1)
+		<p>Role Playing Game</p>
+		@endif	
+		@if (count($game->genre_id) == 2)
+		<p>First Person Shooter</p>
+		@endif
+		@if (count($game->genre_id) == 3)
+		<p>Real Time Strategy</p>
+		@endif
+		@if (count($game->genre_id) == 4)
+		<p>Action Adventure</p>
+		@endif
+		@if (count($game->genre_id) == 5)
+		<p>Massive Multiplayer Online</p>
+		@endif
+		<p>{{$game->vision}}</p>
+		@if (count($game->format_id) == 1)
+		<p>Singleplayer</p>
+		@endif
+		@if (count($game->format_id) == 2)
+		<p>Multiplayer</p>
+		@endif
+		@if (count($game->format_id) == 3)
+		<p>Co-Op</p>
+		@endif
+		@if (count($game->format_id) == 4)
+		<p>Head-To-Head</p>
+		@endif
+		@if (count($game->objective_id) == 1)
+		<p>Capture/Destroy</p>
+		@endif
+		@if (count($game->objective_id) == 2)
+		<p>Solve</p>
+		@endif
+		@if (count($game->objective_id) == 3)
+		<p>Explore</p>
+		@endif
+		@if (count($game->objective_id) == 4)
+		<p>Score</p>
+		@endif
+		<p>{{$game->rules}}</p>
+		<p>{{$game->setting}}</p>
 	</div>
 	<div class="game-components">
 		<h3>

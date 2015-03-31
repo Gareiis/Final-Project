@@ -1,8 +1,5 @@
 @extends('layout')
 
-@section('header')
-
-@endsection
 
 @section('sub-header')
 	<div class="mission">
@@ -25,10 +22,10 @@
 	<div class="main-content">
 		<div class="game-links">
 			<div>
-				<a href="/game-details">Game 1</a>
+				<a href="/game-details/80">Game 1</a>
 			</div>
 			<div>
-				<a href="/game-details">Game 2</a>
+				<a href="/game-details/90">Game 2</a>
 			</div>
 			<div>
 				<a href="/game-details">Game 3</a>

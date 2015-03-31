@@ -5,7 +5,7 @@ use Request;
 use DB;
 use App\Library\Sql;
 use App\Models\Game;
-use App\Models\Comments;
+use App\Models\Comment;
 
 class WizardController extends Controller {
 
@@ -63,7 +63,7 @@ class WizardController extends Controller {
 		$game->setting = $setting;
 		$game->save();
 
-		return redirect('/');
+		return redirect('game-details/' . $game->game_id);
 	}
 
 	public function index() {
@@ -86,35 +86,12 @@ class WizardController extends Controller {
 		return view('wizard-page-4', ['game_id' => $game_id]);
 	}
 
-	public function addComment() {
-		$plot = Request::input('plot');
-		
-		$comment = new Comment();
-		$comment->plot = $plot;
-		$game->save();
 
+	public function getGame($game_id) {
+		$game = new Game($game_id);
 
-		return redirect('plot');
+		return view('game-details', ['game'=>$game]);
 	}
 
-	public function gameDetails() {
-		return view('game-details');
-	}
-
-	public function plot() {
-		return view('plot');
-	}
-
-	public function combat() {
-		return view('combat');
-	}
-
-	public function items() {
-		return view('item');
-	}
-
-	public function npcs() {
-		return view('npc');
-	}
 
 }
