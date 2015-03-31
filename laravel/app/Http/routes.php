@@ -40,6 +40,18 @@ Route::post('wizard4/add', 'WizardController@addSetting');
 
 Route::get('profile', 'ProfileController@index');
 
+Route::get('game-details', 'WizardController@gameDetails');
+
+Route::get('plot', 'WizardController@Plot');
+
+Route::post('plot/addcommment', 'WizardController@addComment');
+
+Route::get('combat', 'WizardController@Plot');
+
+Route::get('items', 'WizardController@Plot');
+
+Route::get('npcs', 'WizardController@Plot');
+
 Route::get('/login', function () {
 	return view('/auth/Login');
 });

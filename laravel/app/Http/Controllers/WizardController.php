@@ -3,16 +3,19 @@
 use Auth;
 use Request;
 use DB;
-// use App\Library\Sql;
+use App\Library\Sql;
 use App\Models\Game;
+use App\Models\Comments;
 
 class WizardController extends Controller {
 
 	public function addGame() {
 		$vision = Request::input('vision');
+		$genre_id = Request::input('genre');
 		
 		$game = new Game();
 		$game->vision = $vision;
+		$game->genre_id = $genre_id;
 		$game->save();
 
 
@@ -25,7 +28,7 @@ class WizardController extends Controller {
 
 		$game = new Game($game_id);
 		$game->format_id = $format_id;
-		// $game->save();
+		$game->save();
 
 		return redirect('wizard2/' . $game->game_id);
 	}
@@ -36,7 +39,7 @@ class WizardController extends Controller {
 
 		$game = new Game($game_id);
 		$game->objective_id = $objective_id;
-		// $game->save();
+		$game->save();
 
 		return redirect('wizard3/' . $game->game_id);
 	}
@@ -80,7 +83,38 @@ class WizardController extends Controller {
 	}
 	
 	public function wizard4($game_id) {
-		return view('wizard-page-4');
+		return view('wizard-page-4', ['game_id' => $game_id]);
+	}
+
+	public function addComment() {
+		$plot = Request::input('plot');
+		
+		$comment = new Comment();
+		$comment->plot = $plot;
+		$game->save();
+
+
+		return redirect('plot');
+	}
+
+	public function gameDetails() {
+		return view('game-details');
+	}
+
+	public function plot() {
+		return view('plot');
+	}
+
+	public function combat() {
+		return view('combat');
+	}
+
+	public function items() {
+		return view('item');
+	}
+
+	public function npcs() {
+		return view('npc');
 	}
 
 }

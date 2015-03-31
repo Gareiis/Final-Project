@@ -415,3 +415,20 @@ footer > nav > a {
 	font-size: 30px;
 	color: orange;
 }
+
+/*******************
+	Javascript   
+*******************/
+
+/**
+ * Active State
+ */
+.compose.expand textarea {
+	height: 5em;
+}
+
+.compose.expand > div {
+	display: block;
+}
+
+

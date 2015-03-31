@@ -25,31 +25,31 @@
 	<div class="main-content">
 		<div class="game-links">
 			<div>
-				<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/game-details.html">Game 1</a>
+				<a href="/game-details">Game 1</a>
 			</div>
 			<div>
-				<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/game-details.html">Game 2</a>
+				<a href="/game-details">Game 2</a>
 			</div>
 			<div>
-				<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/game-details.html">Game 3</a>
+				<a href="/game-details">Game 3</a>
 			</div>
 			<div>
-				<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/game-details.html">Game 4</a>
+				<a href="/game-details">Game 4</a>
 			</div>
 			<div>
-				<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/game-details.html">Game 5</a>
+				<a href="/game-details">Game 5</a>
 			</div>
 			<div>
-				<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/game-details.html">Game 6</a>
+				<a href="/game-details">Game 6</a>
 			</div>	
 			<div>
-				<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/game-details.html">Game 7</a>
+				<a href="/game-details">Game 7</a>
 			</div>	
 			<div>
-				<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/game-details.html">Game 8</a>
+				<a href="/game-details">Game 8</a>
 			</div>	
 			<div>
-				<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/game-details.html">Game 9</a>
+				<a href="/game-details">Game 9</a>
 			</div>
 		</div>
 	</div>

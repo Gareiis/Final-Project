@@ -16,7 +16,7 @@
 
 @section('main_content')
 	<form action="/wizard3/add" method="POST" class="game-create">
-	<input type="hidden" name="game_id">
+		<input type="hidden" name="game_id" value="{{$game_id}}">
 		<input type="hidden" name="_token" value="{{csrf_token()}}">
 		<textarea placeholder="Describe your rules" name="rules" id="" cols="100" rows="50"></textarea><br>
 		<button>Next</button>

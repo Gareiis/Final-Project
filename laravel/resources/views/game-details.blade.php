@@ -24,16 +24,16 @@
 	</div>
 	<div class="game-components">
 		<h3>
-			<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/plot.html">Plot</a>
+			<a href="/plot">Plot</a>
 		</h3>
 		<h3>
-			<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/combat.html">Combat</a>
+			<a href="/combat">Combat</a>
 		</h3>
 		<h3>
-			<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/item.html">Items</a>
+			<a href="/items">Items</a>
 		</h3>
 		<h3>
-			<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/npc.html">Npc's</a>
+			<a href="/npcs">Npc's</a>
 		</h3>
 	</div>
 @endsection
