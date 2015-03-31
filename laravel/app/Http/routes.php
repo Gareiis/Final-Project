@@ -24,13 +24,29 @@ Route::post('game-create/add', 'WizardController@addGame');
 
 Route::get('wizard1/{game_id}', 'WizardController@wizard1');
 
-Route::get('wizard2', 'WizardController@wizard2');
+Route::post('wizard1/add', 'WizardController@addFormat');
 
-Route::get('wizard3', 'WizardController@wizard3');
+Route::get('wizard2/{game_id}', 'WizardController@wizard2');
 
-Route::get('wizard4', 'WizardController@wizard4');
+Route::post('wizard2/add', 'WizardController@addObjective');
+
+Route::get('wizard3/{game_id}', 'WizardController@wizard3');
+
+Route::post('wizard3/add', 'WizardController@addRules');
+
+Route::get('wizard4/{game_id}', 'WizardController@wizard4');
+
+Route::post('wizard4/add', 'WizardController@addSetting');
 
 Route::get('profile', 'ProfileController@index');
+
+Route::get('/login', function () {
+	return view('/auth/Login');
+});
+
+Route::get('register', function () {
+	return view('/auth/register');
+});
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

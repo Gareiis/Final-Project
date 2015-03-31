@@ -9,6 +9,5 @@ class Game extends Model {
     protected static $table = 'games';
     protected static $key = 'game_id';
 
-
     
 }

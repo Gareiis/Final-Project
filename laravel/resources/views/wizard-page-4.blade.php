@@ -17,8 +17,10 @@
 
 
 @section('main_content')
-	<form action="/profile" class="game-create">
-		<textarea placeholder="Describe your setting" name="" id="" cols="100" rows="50"></textarea><br>
+	<form method="POST" action="/wizard4/add" class="game-create">
+	<input type="hidden" name="game_id">
+		<input type="hidden" name="_token" value="{{csrf_token()}}">
+		<textarea placeholder="Describe your setting" name="setting" id="" cols="100" rows="50"></textarea><br>
 		<button>Finish</button>
 	</form>
 @endsection

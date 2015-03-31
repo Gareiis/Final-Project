@@ -286,6 +286,7 @@ footer > nav > a {
 	width: 400px;
 }
 
+
 .gallery div {
 	border: 3px solid orange;
 }
@@ -295,9 +296,19 @@ footer > nav > a {
 	display: inline-block;
 }
 
+.singleplayer > input {
+	width:100%;
+  	height:auto;
+}
+
 .multiplayer {
 	margin-top: 50px;
 	display: inline-block;
+}
+
+.multiplayer > input {
+	width:100%;
+  	height:auto;
 }
 
 .splitscreen {
@@ -305,15 +316,43 @@ footer > nav > a {
 	display: inline-block;
 }
 
+.splitscreen > input {
+	width:100%;
+  	height:auto;
+}
+
 .head-to-head {
 	margin-top: 50px;
 	display: inline-block;
 }
 
+.head-to-head > input {
+	width:100%;
+  	height:auto;
+}
+
 /*******************
 	Wizard page 2    
 *******************/
+.search > input {
+	width:100%;
+  	height:auto;
+}
 
+.Solve > input {
+	width:100%;
+  	height:auto;
+}
+
+.Explore > input {
+	width:100%;
+  	height:auto;
+}
+
+.Score > input {
+	width:100%;
+  	height:auto;
+}
 /*******************
 	Wizard page 3    
 *******************/

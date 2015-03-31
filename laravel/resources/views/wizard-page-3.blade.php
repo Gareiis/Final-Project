@@ -15,8 +15,10 @@
 
 
 @section('main_content')
-	<form action="wizard4" class="game-create">
-		<textarea placeholder="Describe your rules" name="" id="" cols="100" rows="50"></textarea><br>
+	<form action="/wizard3/add" method="POST" class="game-create">
+	<input type="hidden" name="game_id">
+		<input type="hidden" name="_token" value="{{csrf_token()}}">
+		<textarea placeholder="Describe your rules" name="rules" id="" cols="100" rows="50"></textarea><br>
 		<button>Next</button>
 	</form>
 @endsection
