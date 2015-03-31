@@ -10,10 +10,10 @@
 		<a href="game-create">Create your dream game!</a>
 	</div>
 	<div class="lightbox1">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dolore nihil doloremque dicta blanditiis perferendis officiis consequuntur voluptate maxime fugiat rerum est numquam, porro repudiandae cupiditate mollitia culpa. Atque, ab!
+		Our mission here at Fantasy Gaming is very simple, we want you to be able to create the game of your dreams. To get started click create your dream game below!  Or if you want to check out some games that are already in production click on one below.
 	</div>	
 	<div class="lightbox2">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum dolore nihil doloremque dicta blanditiis perferendis officiis consequuntur voluptate maxime fugiat rerum est numquam, porro repudiandae cupiditate mollitia culpa. Atque, ab!
+		Don't worry if you don't have a fully completed idea for your game, thats what we are here for!  Once you get started our step by step wizard will walk you through the basic setup for a game.  After that our community will provide you with feedback and ideas for your game with comments!
 	</div>	
 @endsection
 
@@ -22,31 +22,16 @@
 	<div class="main-content">
 		<div class="game-links">
 			<div>
-				<a href="/game-details/80">Game 1</a>
+				<a href="/game-details/99">Knights of Ionia 2</a>
 			</div>
 			<div>
-				<a href="/game-details/90">Game 2</a>
+				<a href="/game-details/90">Extreme Puzzle Mastery</a>
 			</div>
 			<div>
-				<a href="/game-details">Game 3</a>
+				<a href="/game-details">Sniper Elite</a>
 			</div>
 			<div>
-				<a href="/game-details">Game 4</a>
-			</div>
-			<div>
-				<a href="/game-details">Game 5</a>
-			</div>
-			<div>
-				<a href="/game-details">Game 6</a>
-			</div>	
-			<div>
-				<a href="/game-details">Game 7</a>
-			</div>	
-			<div>
-				<a href="/game-details">Game 8</a>
-			</div>	
-			<div>
-				<a href="/game-details">Game 9</a>
+				<a href="/game-details">How To Slay Your Dragon</a>
 			</div>
 		</div>
 	</div>

@@ -1,9 +1,9 @@
 @extends('layout')
 
-@section('header')
-<script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
-<script src="Javascript/final.js"></script>
-@endsection
+{{-- @section('header') --}}
+{{-- <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+<script src="Javascript/final.js"></script> --}}
+{{-- @endsection --}}
 
 @section('sub-header')
 <div class="plot-head">
@@ -26,13 +26,14 @@
 		@foreach ($comments as $comment)
 		<div>{{$comment->comment_body}}</div>
 		@endforeach
+		<div>I think this game should be a pony Adventure!</div>
 	</div>
 	<div class="comment">
 		<div class="profile-picture">
 			<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/profile.html"><img src="images/sample-profile.jpg" height="100" width="100" alt=""></a>
 		</div>
 		<div>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quos, sint libero cupiditate ut iste quidem quia. Unde adipisci dignissimos voluptates quae repudiandae, architecto, odio blanditiis pariatur exercitationem minima id.
+			Don't listen to that noob this game should be about one thing. DRAGONS
 		</div>
 	</div>
 </div>

@@ -12,9 +12,8 @@
 			<header>
 					<a href="/" class="logo">Fantasy Gaming</a>
 					<nav>
-						<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/sign-up.html">Sign Up</a>
-						<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/sign-in.html">Log In</a>
-						<a href="/logout">Log Out</a>
+						<a href="register">Sign Up</a>
+						<a href="auth/login">Log In</a>
 						<a href="profile">Profile</a>
 					</nav>
 			</header>
@@ -30,9 +29,8 @@
 		@section('footer')
 			<footer>
 				<nav>
-					<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/sign-up.html">Sign Up</a>
-					<a href="file:///home/keith/sites/localhost/final-project-test/final-project-test/sign-in.html">Log In</a>
-					<a href="/logout">Log Out</a>
+					<a href="register">Sign Up</a>
+					<a href="auth/login">Log In</a>
 					<a href="profile">Profile</a>
 				</nav>
 			</footer>

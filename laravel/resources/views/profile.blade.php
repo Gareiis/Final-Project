@@ -10,16 +10,16 @@
 
 @section('main_content')
 <div class="update-section">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ullam neque exercitationem blanditiis nemo, animi ipsam, quo ducimus, sapiente hic accusantium alias atque officiis nostrum saepe at. Omnis recusandae, nihil.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio fugiat ea reiciendis consequatur autem sapiente quod dolores earum dolore voluptatem quam nulla vitae, debitis deleniti voluptates sed totam eum perspiciatis.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat pariatur, eius natus laboriosam optio ut saepe expedita ipsum, nostrum ex mollitia sunt nemo fugit corrupti accusamus enim sed! Aliquam, vitae.
+	Gareiis created the game <a href="/game-details/99">Knights of Ionia 2</a>
 </div>
 <div class="profle">
 	<div class="profile-pic">
 		<img src="images/sample-profile.jpg" height="250" width="250" alt="">
 	</div>
 	<div class="user-details">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis molestiae optio officia voluptatem. Dignissimos rem nobis illum quis maiores ad magnam, minima, delectus ipsam deserunt ex eum incidunt facilis similique.
+		<div>Username: Gareiis</div>
+		<div>Likes: Movies, Gaming, Coding</div>
+		<div>Dislikes: Bad Games</div>
 	</div>
 </div>
 @endsection
