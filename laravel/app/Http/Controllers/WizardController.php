@@ -12,10 +12,12 @@ class WizardController extends Controller {
 	public function addGame() {
 		$vision = Request::input('vision');
 		$genre_id = Request::input('genre');
+		$name = Request::input('name');
 		
 		$game = new Game();
 		$game->vision = $vision;
 		$game->genre_id = $genre_id;
+		$game->name = $name;
 		$game->save();
 
 
@@ -93,5 +95,10 @@ class WizardController extends Controller {
 		return view('game-details', ['game'=>$game]);
 	}
 
+	public function gameNames(){
+		$games = new Game();
+		$games = $games->getAllGames();
 
+		return view('/home', ['games'=> $games]);
+	}
 }

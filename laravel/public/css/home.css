@@ -1,5 +1,5 @@
 a {
-	color:white;
+	color:#EEC900;
 	text-decoration: none;
 }
 
@@ -9,16 +9,19 @@ a {
 
 .hero {
 	min-height: 100px;
-	background-color: red;
+	color: white;
 	overflow: hidden;
 	position: relative;
+	background-color: black;
+	font-family: 'Poiret One', cursive;
 }
 
 header {
 	height: 150px;
-	background-color: orange;
+	/*background-color: orange;*/
 	text-align: center;
 	position: relative;
+
 }
 
 .logo {
@@ -32,14 +35,15 @@ header {
 	position: absolute;
 	top: 0;
 	right: 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 3px solid #EEC900;
+	border-bottom: 3px solid #EEC900;
 }
 
 nav > a {
 	display: inline-block;
 	padding: 10px;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 
@@ -48,7 +52,7 @@ nav > a {
 *********************************/
 
 main {
-	background-color: blue;
+		background-color: black;
 	min-height: 500px;
 	position: relative;
 	overflow: hidden;
@@ -57,34 +61,34 @@ main {
 	index page     
 *******************/
 .game-links {
-	text-align: center;
-	background-color: gold;
-	margin-top: 50px;
-	display: inline-block;
-	margin-left: 600px;
+text-align: center;
+	background-color: black;
+	position: absolute;
+	left: 35%;
 	
 }
 
 .game-links a {
 	font-size: 30px;
-/*	display: block;*/
-	/*margin-top: 20px;*/
+	display: inline-block;
+	margin-top: 40px;
+	font-family: lobster;
 }
 
 .sub-header {
-	background-color: #123;
+	background-color: black;
 	overflow: hidden;
 	min-height: 400px;
 	margin: 0 auto;
-	text-align: center;
-}
+	text-align: center;}
 
 .mission {
-	background-color: #555;
-	color: white;
+	background-color: black;
+	color: #EEC900;
 	font-size: 25px;
 	width: 400px;
 	margin-left: 35%;
+	font-family: lato;
 
 }
 	
@@ -93,51 +97,70 @@ main {
 	font-size: 20px;
 	margin-top: 30px;
 	display: inline-block;
+	font-family: 'Poiret One', cursive;;
 }
 
 .lightbox1 {
-	background-color: pink;
-	min-height: 150px;
+	background-color: black;
+	color: #EEC900;
+	font-size: 20px;
 	width: 200px;
 	float: left;
 	margin-left: 50px;
+	font-family: lato;
+	font-style: italic;
+	font-weight: bold;
 
 
 }.lightbox2 {
-	background-color: pink;
+	background-color: black;
+	color: #EEC900;
+	font-size: 20px;
 	min-height: 150px;
 	width: 200px;
 	float: right;
 	margin-right: 50px;
+	margin-bottom: 15px;
+	/*box-shadow: 0 0 5px 0 #999;*/
+	font-family:lato;
+	font-style: italic;
+	font-weight: bold;
 }
 
 .banner {
-	background-color: red;
+	background-color: black;
 	min-height: 150px;
 	position: relative;
 }
 
 .create {
-	background-color: #ccc;
+	background-color: black;
 	min-height: 50px;
 	width: 100px;
 	position: absolute;
-	left: 45%; 	
+	left: 45%; 
+	bottom: 70%;
 }
+
+	.create > a {
+	font-size: 25px;
+	font-weight: bold;
+}
+
 .foot {
 	position: relative;
-	background-color: #122;
+	background-color: black;
 	min-height: 50px;
 }
 footer nav {
 	position: absolute;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid #EEC900;
+	border-bottom: 1px solid #EEC900;
 	left: 35%;
 
 }
 footer > nav > a {
-	color: red;
+	color: #EEC900;
 }
 
 /*******************
@@ -166,7 +189,7 @@ footer > nav > a {
 *******************/
 
 .profile-head {
-	color: orange;
+	color: #EEC900;
 	font-size: 30px;
 }
 
@@ -179,22 +202,25 @@ footer > nav > a {
 }
 
 .profile-pic {
-	background-color: orange;
 	float: left;
 	margin-bottom: 50px;
 }
 
 .update-section {
-	background-color: grey;
+	background-color: black;
 	width: 800px;
 	margin: 0 auto;
 }
 
 .user-details {
-	background-color: gold;
-	float: right;
+	background-color: black;
+	float: left;
 	min-height: 100px;
 	margin-top: 50px;
+	color: #EEC900;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 40px;
 }
 
 
@@ -222,6 +248,10 @@ footer > nav > a {
 	Create a game page     
 *******************/
 
+.gamecreate {
+	margin-left: 260px;
+	margin-bottom: 400px;
+}
 .game-create-head {
 	font-size: 30px;
 	color: orange;
@@ -231,9 +261,24 @@ footer > nav > a {
 	text-align: center;
 }
 
+.title {
+	color: #EEC900;
+	display: inline;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+}
+
 .game-create > select {
 	margin-top: 40px;
 	margin-bottom: 70px;
+}
+.genre {
+	color: #EEC900;
+	display: inline;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 /*******************
@@ -241,7 +286,7 @@ footer > nav > a {
 *******************/
 
 .game-details-head {
-	color: orange;
+	color: #EEC900;
 	font-size: 30px;
 }
 
@@ -255,19 +300,28 @@ footer > nav > a {
 .game-details > p {
 	margin-top: 10px;
 	font-size: 20px;
+	color: #EEC900;
+	font-style: italic;
+	font-weight: bold;
 }
 
 .game-components {
 	text-align: center;
 	margin-top: 50px;
+	color: #EEC900;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: lobster;
 }
+
 
 /*******************
 	Wizard page 1    
 *******************/
 
 .wizard1-sub-header {
-	background-color: #123;
+	background-color: black;
 	overflow: hidden;
 	min-height: 200px;
 	margin: 0 auto;
@@ -276,11 +330,11 @@ footer > nav > a {
 
 .wizard-page1-head {
 	font-size: 40px;
-	color: orange;
+	color: #EEC900
 }
 
 .gallery {
-	background-color: #fff;
+	background-color: black;
 	margin-left: 450px;
 	min-height: 600px;
 	width: 400px;
@@ -288,7 +342,11 @@ footer > nav > a {
 
 
 .gallery div {
-	border: 3px solid orange;
+	
+	color: #EEC900;
+	font-style: italic;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive
 }
 
 .singleplayer {
@@ -358,13 +416,21 @@ footer > nav > a {
 *******************/
 
 .wiz3-head {
-	color: orange;
+	color: #EEC900;
 	font-size: 30px;
+}
+
+.gamerules {
+	margin-left: 250px;
 }
 
 /*******************
 	Wizard page 4    
 *******************/
+
+.gamesetting {
+	margin-left: 250px;
+}
 
 /*******************
 	Plot Page    
@@ -372,15 +438,17 @@ footer > nav > a {
 
 .plot-head {
 	font-size: 30px;
-	color: orange;
+	color: #EEC900;
 }
 
 .comment {
-	border: 3px solid orange;
-	margin: 0 auto;
+	border: 3px solid #EEC900;
 	overflow: hidden;
+	color: #EEC900;
+	font-weight: bold;
+	font-style: italic;
+	margin-top:  10px;
 }
-
 .profile-picture {
 	background-color: red;
 	min-height: 50px;

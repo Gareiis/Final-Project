@@ -4,13 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="{{ url('css/home.css') }}">
-	{{-- {{ HTML::style('css/home.css') }} --}}
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,700|Lobster' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div class="hero">
 		@section('header')
 			<header>
-					<a href="/" class="logo">Fantasy Gaming</a>
+					<a href="/home" class="logo">Fantasy Gaming</a>
 					<nav>
 						<a href="register">Sign Up</a>
 						<a href="auth/login">Log In</a>
@@ -21,6 +22,9 @@
 	</div>
 	<div class="sub-header">
 		@yield('sub-header')
+	</div>
+	<div class="banner">
+		@yield('banner')
 	</div>
 	<main>
 		@yield('main_content')

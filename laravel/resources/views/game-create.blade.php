@@ -10,10 +10,11 @@
 
 
 @section('main_content')
-	<form method="POST" action="game-create/add">
+	<form class ='gamecreate'method="POST" action="game-create/add">
 		<input type="hidden" name="_token" value="{{csrf_token()}}">
-		Game Type: <select name="genre" id="">
-			<option value="1">Role Playing Game</option>
+		<div class ='title'>Game Title: <input name="name" type="text"></div>
+		<div class='genre'>Game Type: <select name="genre" id="">
+			<option class='gametype' value="1">Role Playing Game</option>
 			<option value="2">First Person Shooter </option>
 			<option id="3">Real Time Strategy</option>
 			<option value="4">Action Adventure</option>

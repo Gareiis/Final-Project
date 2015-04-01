@@ -14,9 +14,11 @@
 
 
 
-Route::get('/', 'HomeController@index');
+Route::get('home', 'WizardController@gameNames');
 
-Route::get('home', 'HomeController@index');
+// Route::get('get-games','WizardController@gameNames');
+
+Route::get('/', 'HomeController@index');
 
 Route::get('game-create', 'WizardController@index');
 

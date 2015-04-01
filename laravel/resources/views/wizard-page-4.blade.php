@@ -15,7 +15,7 @@
 
 
 @section('main_content')
-	<form method="POST" action="/wizard4/add" class="game-create">
+	<form class="gamesetting" method="POST" action="/wizard4/add" class="game-create">
 		<input type="hidden" name="game_id" value="{{$game_id}}">
 		<input type="hidden" name="_token" value="{{csrf_token()}}">
 		<textarea placeholder="Describe your setting" name="setting" id="" cols="100" rows="50"></textarea><br>

@@ -22,6 +22,7 @@ class CommentController extends Controller {
 
 	public function getComments() {
 		$comments = new Comment();
+		$comments = $comments->getAllComments();
 
 		return view('plot', ['comments'=>$comments]);
 	}
