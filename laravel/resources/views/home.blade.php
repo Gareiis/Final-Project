@@ -41,9 +41,10 @@
 					<a href="/game-details">How To Slay Your Dragon</a>
 				</div>
 				<div>
-					
-						<a href="/game-details/1">{{$g->name}}</a>
-				
+					<a href="/game-details/1">{{$g->name}}</a>
+				</div>
+				<div>
+					<a href="/game-details/1">{{$g->name}}</a>
 				</div>
 			</div>
 		@endforeach
