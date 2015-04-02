@@ -9,10 +9,23 @@ button {
 	border: none;
 	font-size: 20px;
 	font-style: italic;
+	padding: 10px 20px;
 }
 
-textarea {
+textarea, input[type="text"], select {
 	background-color: #333;
+	border: 1px solid #999;
+	font-size: 16pt;
+	outline: none;
+	color: #eee;
+	padding: 10px;
+}
+
+
+textarea {
+	margin-top: 10px;
+	width: 1000px;
+	height: 200px;
 }
 
 /**********************
@@ -30,7 +43,6 @@ textarea {
 
 header {
 	height: 150px;
-	/*background-color: orange;*/
 	text-align: center;
 	position: relative;
 
@@ -64,7 +76,7 @@ nav > a {
 *********************************/
 
 main {
-		background-color: black;
+	background-color: black;
 	min-height: 500px;
 	position: relative;
 	overflow: hidden;
@@ -73,7 +85,6 @@ main {
 	index page     
 *******************/
 .game-links {
-	/*text-align: center;*/
 	background-color: black;
 	position: absolute;
 	left: 45%;
@@ -90,7 +101,7 @@ main {
 .sub-header {
 	background-color: black;
 	overflow: hidden;
-	min-height: 400px;
+	/*min-height: 100px;*/
 	margin: 0 auto;
 	text-align: center;}
 
@@ -142,7 +153,7 @@ main {
 
 .banner {
 	background-color: black;
-	min-height: 150px;
+	min-height: 50px;
 	position: relative;
 }
 
