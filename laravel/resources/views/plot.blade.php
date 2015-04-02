@@ -19,17 +19,9 @@
 
 @section('main_content')
 <div class="comments">
+	{{-- {{dd($comments)}} --}}
 	@foreach ($comments as $c)
 		<div class="comment">
-			<div>I think this game should be a pony Adventure!</div>
-		</div>
-		<div class="comment">
-			<div>
-				Don't listen to that noob this game should be about one thing. DRAGONS
-			</div>
-		</div>
-
-	<div class="comment">
 			<div>
 				<div>{{$c->comment_body}}</div>
 			</div>

@@ -17,7 +17,7 @@ class CommentController extends Controller {
 		$comments->save();
 
 
-		return view('plot', ['comments'=>$comments]);
+		return redirect('plot');
 	}
 
 	public function getComments() {

@@ -3,6 +3,18 @@ a {
 	text-decoration: none;
 }
 
+button {
+	background-color:#EEC900 ;
+	color: black;
+	border: none;
+	font-size: 20px;
+	font-style: italic;
+}
+
+textarea {
+	background-color: #333;
+}
+
 /**********************
 		Hero Section
 ***********************/
@@ -61,10 +73,10 @@ main {
 	index page     
 *******************/
 .game-links {
-text-align: center;
+	/*text-align: center;*/
 	background-color: black;
 	position: absolute;
-	left: 35%;
+	left: 45%;
 	
 }
 
@@ -110,6 +122,7 @@ text-align: center;
 	font-family: lato;
 	font-style: italic;
 	font-weight: bold;
+	font-size: 25px;
 
 
 }.lightbox2 {
@@ -121,10 +134,10 @@ text-align: center;
 	float: right;
 	margin-right: 50px;
 	margin-bottom: 15px;
-	/*box-shadow: 0 0 5px 0 #999;*/
 	font-family:lato;
 	font-style: italic;
 	font-weight: bold;
+	font-size: 25px;
 }
 
 .banner {
@@ -254,7 +267,7 @@ footer > nav > a {
 }
 .game-create-head {
 	font-size: 30px;
-	color: orange;
+	color: #EEC900;
 }
 
 .game-create {
@@ -266,7 +279,7 @@ footer > nav > a {
 	display: inline;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 .game-create > select {
@@ -278,7 +291,7 @@ footer > nav > a {
 	display: inline;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 /*******************
@@ -303,6 +316,7 @@ footer > nav > a {
 	color: #EEC900;
 	font-style: italic;
 	font-weight: bold;
+	font-size: 30px;
 }
 
 .game-components {
@@ -311,7 +325,7 @@ footer > nav > a {
 	color: #EEC900;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 30px;
 	font-family: lobster;
 }
 
@@ -346,7 +360,8 @@ footer > nav > a {
 	color: #EEC900;
 	font-style: italic;
 	font-weight: bold;
-	font-family: 'Poiret One', cursive
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
 }
 
 .singleplayer {
@@ -447,6 +462,7 @@ footer > nav > a {
 	color: #EEC900;
 	font-weight: bold;
 	font-style: italic;
+	font-size: 30px;
 	margin-top:  10px;
 }
 .profile-picture {

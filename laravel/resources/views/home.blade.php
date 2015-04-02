@@ -31,21 +31,9 @@
 	<div class="main-content">
 		@foreach($games as $g)
 			<div class="game-links">
-				<div>
-					<a href="/game-details/90">Extreme Puzzle Mastery</a>
-				</div>
-				<div>
-					<a href="/game-details">Sniper Elite</a>
-				</div>
-				<div>
-					<a href="/game-details">How To Slay Your Dragon</a>
-				</div>
-				<div>
-					<a href="/game-details/1">{{$g->name}}</a>
-				</div>
-				<div>
-					<a href="/game-details/1">{{$g->name}}</a>
-				</div>
+					<div>
+						<a href="/game-details/1">{{$g->name}}</a>
+					</div>
 			</div>
 		@endforeach
 	</div>
