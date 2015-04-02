@@ -35,7 +35,7 @@ class WizardController extends Controller {
 		return redirect('wizard2/' . $game->game_id);
 	}
 
-		public function addObjective() {
+	public function addObjective() {
 		$objective_id = Request::input('objective');
 		$game_id = Request::input('game_id');
 
@@ -46,7 +46,7 @@ class WizardController extends Controller {
 		return redirect('wizard3/' . $game->game_id);
 	}
 
-		public function addRules() {
+	public function addRules() {
 		$rules = Request::input('rules');
 		$game_id = Request::input('game_id');
 
@@ -57,7 +57,7 @@ class WizardController extends Controller {
 		return redirect('wizard4/' . $game->game_id);
 	}
 
-		public function addSetting() {
+	public function addSetting() {
 		$setting = Request::input('setting');
 		$game_id = Request::input('game_id');
 
